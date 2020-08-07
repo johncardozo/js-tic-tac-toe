@@ -1,0 +1,34 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 610px;
+  height: 610px;
+  background-color: black;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.winner{
+    border: 1px solid green;
+    background-color: lightgreen;
+    color: green;
+    width: 600px;
+}
+
+.player-1 {
+  background-image: url("../img/x.png");
+}
+
+.player-0 {
+  background-image: url("../img/o.png");
+}
